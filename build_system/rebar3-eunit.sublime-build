@@ -1,0 +1,6 @@
+// Place your erlang activate ( kerl ) in your rc file.
+// in this example i have erlang loaded in .zshrc
+{
+    "shell_cmd": "source ~/.zshrc && rebar3 eunit -c -v && rebar3 cover -v",
+    "working_dir": "${project_path:${folder}}"
+}
